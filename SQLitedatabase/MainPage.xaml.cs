@@ -40,11 +40,6 @@ namespace SQLitedatabase
             {
                 this.listSong.Add(music);
             }
-
-
-
-
-
         }
 
         private void Save(object sender, RoutedEventArgs e)
@@ -67,9 +62,8 @@ namespace SQLitedatabase
                 Console.WriteLine(exception);
                 throw;
             }
-            
-        }
 
+        }
         private void Reset(object sender, RoutedEventArgs e)
         {
             this.txt_name.Text = String.Empty;
